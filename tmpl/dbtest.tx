@@ -1,0 +1,8 @@
+<html>
+  <head>
+    <title>XSlate test page</title>
+  </head>
+  <body>
+    This is DBTEST! Result: [% $dbresult.user %]
+  </body>
+</html>

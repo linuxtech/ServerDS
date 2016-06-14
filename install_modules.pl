@@ -14,5 +14,9 @@ sub list {
         'Catalyst::Devel',
         'Catalyst::View::Xslate',
         'Catalyst::Helper::Model::DBIC::Schema',
+        'DBIx::Class',
+        'DBIx::Class::Schema::Loader',
+        'DBI',
+        'DBD::mysql',
     );
 }

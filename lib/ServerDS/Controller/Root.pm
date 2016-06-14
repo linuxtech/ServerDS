@@ -48,6 +48,14 @@ sub default :Path {
     $c->response->status(404);
 }
 
+sub dbtest :Local {
+use Data::Dumper;
+    my ( $self, $c, $id ) = @_;
+    my $test = $c->model('ServerDS_DB::User')->find($id);
+    $c->stash->{dbresult} = $test;
+    $c->stash->{template} ||= 'dbtest.tx';
+}
+
 =head2 end
 
 Attempt to render a view, if needed.

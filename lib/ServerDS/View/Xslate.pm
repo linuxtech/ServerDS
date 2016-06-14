@@ -6,6 +6,7 @@ extends 'Catalyst::View::Xslate';
 
 __PACKAGE__->config(
     template_extension => '.tx',
+    syntax => 'TTerse',
     encoding => 'UTF-8',
     content_charset => 'UTF-8',
     encode_body => 0,
