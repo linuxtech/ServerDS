@@ -18,5 +18,6 @@ sub list {
         'DBIx::Class::Schema::Loader',
         'DBI',
         'DBD::mysql',
+        'MooseX::NonMoose',
     );
 }
